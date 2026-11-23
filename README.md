@@ -1,4 +1,4 @@
-# riskstate-ai
+# RiskState
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,118 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-riskstate-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://riskstate.ai/
+RiskState provides decision and risk infrastructure for crypto capital, offering deterministic risk engines, market structure analysis, and trading playbooks. Their platform supports spot, perpetual futures, and DeFi assets, delivering audit trails, risk permissions, and integration via HTTP APIs and MCP servers. The service targets institutional pilots and beta users, emphasizing transparency and compliance.
+
+**Areas:** Company · Crypto · RiskManagement · Infrastructure · API
+
+## RiskState on APIs.io
+
+Everything profiled for RiskState is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/riskstate-ai/](https://apis.io/providers/riskstate-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [RiskState API](https://apis.io/apis/riskstate-ai/riskstate-ai-api/) — RiskState API as documented publicly: 7 operations. Contract generated from the documentation by API Evangelist (2026-11-23); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV2AuditDecisionsIdResponse](https://apis.io/schemas/riskstate-ai/riskstate-ai-get-v2-audit-decisions-id-response/)
+- [GetV2AuditDecisionsResponse](https://apis.io/schemas/riskstate-ai/riskstate-ai-get-v2-audit-decisions-response/)
+- [PostV1RiskStateRequest](https://apis.io/schemas/riskstate-ai/riskstate-ai-post-v1-risk-state-request/)
+- [PostV2BacktestShadowRequest](https://apis.io/schemas/riskstate-ai/riskstate-ai-post-v2-backtest-shadow-request/)
+- [PostV2RiskDistributionRequest](https://apis.io/schemas/riskstate-ai/riskstate-ai-post-v2-risk-distribution-request/)
+- [PostV2RiskDistributionResponse](https://apis.io/schemas/riskstate-ai/riskstate-ai-post-v2-risk-distribution-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Riskstate Ai Context](https://apis.io/jsonld/riskstate-ai/riskstate-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [RiskState API Rules](https://apis.io/rules/riskstate-ai/riskstate-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [RiskState Domain Security](https://apis.io/security/riskstate-ai/riskstate-ai-domain-security/)
+- [RiskState Vulnerability Disclosure](https://apis.io/security/riskstate-ai/riskstate-ai-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://riskstate.ai/)
+- [Documentation](https://riskstate.ai/docs)
+- [API reference](https://riskstate.ai/docs/api)
+- [Blog](https://riskstate.ai/blog)
+- [Security](https://riskstate.ai/security)
+- [Terms of service](https://riskstate.ai/legal)
+- [Privacy policy](https://riskstate.ai/privacy)
+- [GitHub](https://github.com/Riskstate/)
+- [Status](https://riskstate.ai/status)
+
+## API Evangelist rating
+
+**Kin Score 43.4** — developing · rubric 0.27.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 55.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 21.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/riskstate-ai/](https://apis.io/providers/riskstate-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for RiskState: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/riskstate-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
